@@ -1,10 +1,5 @@
-# !/user/bin/env Python3
-# -*- coding:utf-8 -*-
-
 """
-file：baidu_api.py
-create time:2019/4/10 15:14
-author:Loong Xu
+update time:2019/8/15
 desc: 调用百度OCRapi实现文本识别
 """
 import base64
@@ -108,4 +103,4 @@ def Recognise(img_path):
         # print(k, v)
 
 
-Recognise(r'C:\Users\1\Desktop\get_data\py\lxf\bus.jpg')
+Recognise(r'图片地址')
